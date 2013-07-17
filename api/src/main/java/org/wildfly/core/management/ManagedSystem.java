@@ -85,6 +85,6 @@ public final class ManagedSystem {
         if (context == null) {
             throw new IllegalStateException("No transaction");
         }
-
+        throw new UnsupportedOperationException();
     }
 }
